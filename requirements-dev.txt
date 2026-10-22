@@ -1,0 +1,6 @@
+# Local development and tests: runtime dependencies plus the mock APIs and test tools.
+-r requirements.txt
+fastapi==0.115.6
+uvicorn==0.34.0
+pytest==8.3.5
+moto[dynamodb]==5.1.1

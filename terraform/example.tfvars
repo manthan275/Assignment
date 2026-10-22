@@ -1,0 +1,9 @@
+# Example values for `terraform plan -var-file=example.tfvars`. Replace before applying.
+container_image              = "123456789012.dkr.ecr.ap-southeast-2.amazonaws.com/catalogue-sync:3f2c1ab"
+vpc_id                       = "vpc-0123456789abcdef0"
+subnet_ids                   = ["subnet-0123456789abcdef0", "subnet-0fedcba9876543210"]
+product_api_url              = "https://pim.example.internal"
+warehouse_api_url            = "https://wms.example.internal"
+product_api_key_secret_arn   = "arn:aws:secretsmanager:ap-southeast-2:123456789012:secret:catalogue-sync/pim-api-key-AbCdEf"
+warehouse_api_key_secret_arn = "arn:aws:secretsmanager:ap-southeast-2:123456789012:secret:catalogue-sync/wms-api-key-AbCdEf"
+alarm_email                  = "integration-oncall@example.com"

@@ -1,0 +1,10 @@
+.git
+.venv
+runtime
+tests
+terraform
+mock-services
+scripts
+**/__pycache__
+*.md
+.env

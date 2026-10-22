@@ -1,0 +1,3 @@
+# Runtime dependencies (installed in the container image).
+httpx==0.28.1
+boto3==1.37.18
